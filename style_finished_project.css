@@ -23,11 +23,12 @@
     min-height: 768px;
 }
 
-.top_content{
+/* .top_content{
     display: flex;
     flex-direction: column;
     height: 100%;
-}
+} */
+
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 *, *:before, *:after{
@@ -40,7 +41,6 @@
 }
 
 /*| Navigation |*/
-
 nav{
   position: fixed;
   display: flex;
@@ -101,101 +101,7 @@ nav{
             top:0;
           }	
 
-.top_menu{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    padding-top: 42px;
-}
-
-.top_info{
-    padding-top: 115px;
-}
-
-.top_info_header{
-    width: 510px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 74px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    margin-bottom: 32px;
-}
-
-.top_info_text{
-    max-width: 425px;
-}
-
-.text{
-    font-size: 16px;
-    line-height: 26px;
-    color: #1F3F68;
-    letter-spacing: 0.05em;
-    opacity: 0.6;
-}
-
-.project_header_text{
-    width: 75%;
-    margin: 32px auto 64px;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #222222;
-}
-.project_text{
-    position: absolute;
-    font-size: 32px;
-    line-height: 46px;
-    text-align: right;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    top: 64px;
-    right: 64px;
-}
-
-.project_text_mini{
-    position: absolute;
-    right: auto;
-    left: 32px;
-    top: 32px;
-    text-align: left;
-}
-
-.project_item{
-    position: relative;
-    flex-grow: 1;
-
-}
-
-.project_parent{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 32px;
-
-}
-
-.project_item_margin{
-    margin-right: 32px;
-}
-
-.top_button{
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #5A98D0;
-    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
-    border-radius: 10px;
-    padding: 15px 50px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 71px;
-}
-
-.whatwedo{
+          .whatwedo{
     padding-top: 64px;
 }
 
@@ -246,22 +152,6 @@ nav{
     line-height: 30px;
     color: #5a98d0;;
     letter-spacing: 0.05em;text-decoration: none;
-}
-
-.project_header_h{
-    margin: 0px;
-    margin-top: 63.87px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 46px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #000000;
-}
-
-.project_image{
-    width: 100%;
 }
 
 .footer{
@@ -569,4 +459,4 @@ hr{
         margin-top: 37px;
     }
    
-}
+}s
