@@ -66,8 +66,9 @@ nav{
 
 .whatwedo_card_box{
     display: flex;
-    padding-top: 128px;
-    padding-bottom: 64px; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 99px;
 }
 
 .whatwedo_header{
@@ -81,6 +82,7 @@ nav{
 .whatwedo_card{
     width: 359px;
     padding: 44px 32px 0 32px;
+    margin-bottom: 21px;
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #FFFFFF;
