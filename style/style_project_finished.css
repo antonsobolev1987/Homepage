@@ -23,11 +23,6 @@
     min-height: 768px;
 }
 
-/* .top_content{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-} */
 
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
@@ -101,14 +96,10 @@ nav{
             top:0;
           }	
 
-          .whatwedo{
-    padding-top: 64px;
-}
-
 .whatwedo_card_box{
     display: flex;
     justify-content: space-between;
-    padding-top: 64px;
+    padding-top: 128px;
     padding-bottom: 64px; 
 }
 
@@ -147,18 +138,10 @@ nav{
     margin-bottom: 30px;
 }
 
-.whatwedo_card_link{
-    font-size: 14px;
-    line-height: 30px;
-    color: #5a98d0;;
-    letter-spacing: 0.05em;text-decoration: none;
-}
-
 .footer{
     background: #316099;
     padding-top: 91px;
     padding-bottom: 64px;
-    margin-top: 112px;
 }
 
 .footer_top{
@@ -236,7 +219,7 @@ hr{
     opacity: 0.4;
 }
 
-@media (max-width: 1024px) and (min-width:668px){
+/* @media (max-width: 1024px) and (min-width:668px){
     .container{
         padding-left: 32px;
         padding-right: 32px;
@@ -302,47 +285,6 @@ hr{
 
 @media(max-width: 667px){
 
-    .top{
-        min-height: 376px;
-        padding-bottom: 41px;
-        box-sizing: border-box;
-    }
-    .top_menu{
-        padding-top: 16px;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
-    .top_info{
-        padding-top: 28px;
-        padding-left: 16px;
-        padding-right: 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-image: none;
-    }
-
-    .top_info_header{
-        width: 100%;
-        font-size: 32px;
-        line-height: 37px;
-        margin-bottom: 12px;
-        text-align: center;
-    }
-
-    .top_info_text{
-        width: 100%;
-        text-align: center;
-    }
-
-    .top_button{
-        font-size: 12px;
-        line-height: 26px;
-        padding: 0 8px;
-        margin-top: 32px;
-    }
-
     .whatwedo_header{
         font-size: 24px;
         line-height: 28px;
@@ -367,36 +309,6 @@ hr{
         padding-top: 48px;
         padding-left: 16px;
         padding-right: 16px;
-    }
-
-    .project{
-        padding-bottom: 64px;
-    }
-
-    .project_header_text{
-        width: 100%;
-        margin-bottom: 82px;
-    }
-
-    .project_parent{
-        flex-direction: column;
-        margin-top: 16px;
-    }
-
-    .project_text{
-        font-size: 16px;
-        line-height: 19px;
-        top: 16px;
-        right: 16px;
-    }
-
-    .project_text_mini{
-        left: 16px;
-    }
-
-    .project_item_margin{
-        margin-right: 0;
-        margin-bottom: 16px;
     }
 
     .footer{
@@ -459,4 +371,4 @@ hr{
         margin-top: 37px;
     }
    
-}s
+} */
