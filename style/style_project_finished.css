@@ -101,9 +101,11 @@ nav{
     color:#1F3F68;
     letter-spacing: 0.05em;
     opacity: 0.6;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 30px;
 }
+
 
 .footer{
     background: #316099;
