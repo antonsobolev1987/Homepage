@@ -15,7 +15,7 @@
 }
 
 .wrapper{
-    min-height: 1vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
 }
@@ -32,7 +32,6 @@
 /*| Navigation |*/
 
 nav{
-  position: fixed;
   display: flex;
   justify-content: center;
   top: 0;
@@ -108,85 +107,54 @@ nav{
 }
 
 
-.footer{
-    background: #316099;
-    padding-top: 91px;
-    padding-bottom: 64px;
-}
-
-.footer_top{
-    padding-bottom: 96px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer_top_content_text{
-    width: 495px;
-}
-
-.footer_top_content_text_heading{
-    width: 340px;
-    text-align: left;
-    color: #FFFFFF;
-    margin-bottom: 32px;
-    font-size: 36px;
-    font-weight: 300;
-    line-height: 46px;
-    letter-spacing: 0.05em;
-}
-
-.text_footer{
-    font-size: 16px;
-    line-height: 26px;
-    color: #FFFFFF;
-    letter-spacing: 0.05em;
-    opacity: 0.6;
-}
-
-.footer_button{
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    padding: 15px 80px;
-    background: #5A98D0;
+a{
     text-decoration: none;
 }
 
-hr{
-    opacity: 0.4;
+.footer{
+    display: flex;
+    justify-content: right;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer_info{
     display: flex;
-    justify-content: space-between;
-    margin-top: 64px;
+    justify-content: center;
 }
 
 .footer_info_text{
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    flex-grow: 1;
-    flex-basis: 33.3333%;
     list-style-type: none;
-    display: flex;
-    margin-right: 32px;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+#instagram{
+    background: url(../img/logo/inst_logo.png);
+    background-repeat: no-repeat;
+}
+
+#vkontakte{
+    background: url(../img/logo/vk_logo.png);
+    background-repeat: no-repeat;
+}
+
+#email{
+    background: url(../img/logo/email_logo.png);
+    background-repeat: no-repeat;
 }
 
 .footer_info_copyright{
-    margin-top: 64px;
+    margin-top: 8px;
 }
 
 .footer_info_copyright_text{
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
     opacity: 0.4;
+    text-align: center;
 }
 
 /* @media (max-width: 1024px) and (min-width:668px){
