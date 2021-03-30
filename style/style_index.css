@@ -90,21 +90,6 @@ a{
     height: 50px;
 }
 
-#instagram{
-    background: url(../img/logo/inst_logo.png);
-    background-repeat: no-repeat;
-}
-
-#vkontakte{
-    background: url(../img/logo/vk_logo.png);
-    background-repeat: no-repeat;
-}
-
-#email{
-    background: url(../img/logo/email_logo.png);
-    background-repeat: no-repeat;
-}
-
 .footer_info_copyright{
     margin-top: 8px;
 }
